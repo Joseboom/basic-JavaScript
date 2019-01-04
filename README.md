@@ -4,5 +4,17 @@
 ## 2.สร้างไฟล์ JavaScript อีกไฟล์ขึ้นมา เช่น pirce.js
     -เป็นไฟล์ที่มีไว้เพื่อ exports ไปใช้กับไฟล์ icansee.js 
     โดยภายในจะมีคำสั่ง module.exports เพื่อให้สามารถ export ไปใช้กับไฟล์อื่นที่ต้องการ 
-    โดยการ exports มีสองรูปแบบ 1 เป็นแบบ Object 2 เป็นแบบ Property
+    โดยการ exports มีสองรูปแบบ 
+        1 เป็นแบบ Object 
+         const aa = (test) => {
+            }
+            module.exports = {
+            aa 
+            }
+        2 เป็นแบบ Property
+            module.exports.price = (num) => {
+                xxx
+                return xxx;
+            }
+
     "# basic-JavaScript" 
